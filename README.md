@@ -5,7 +5,8 @@ Add to `.repo/local_manifests/rs988.xml`:
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<project path="TeamWin/device/lge/rs988" name="android_device_lge_rs988" remote="github" revision="android-7.1" />
+	<remote name="LG-G5" fetch="https://github.com/LG-G5"/>
+	<project path="device/lge/rs988" name="twrp_device_lge_rs988" remote="LG-G5" revision="android-7.1" />
 </manifest>
 ```
 
