@@ -30,3 +30,6 @@ PRODUCT_MODEL := LG-RS988
 PRODUCT_NAME := omni_rs988
 PRODUCT_BRAND := lge
 PRODUCT_MANUFACTURER := LGE
+
+# Allow missing dependencies
+export ALLOW_MISSING_DEPENDENCIES = true
